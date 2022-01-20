@@ -6,7 +6,7 @@ import { FrameState } from '../PluggableMap';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import { Extent } from '../extent';
-import Layer from '../layer/Layer';
+import Layer, { State } from '../layer/Layer';
 import Projection from '../proj/Projection';
 import LayerRenderer from '../renderer/Layer';
 import ImageSource, { ImageSourceEvent, ImageSourceEventTypes } from './Image';

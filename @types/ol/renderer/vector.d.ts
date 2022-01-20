@@ -1,11 +1,22 @@
-import { FeatureLike } from '../Feature';
+import Feature, { FeatureLike } from '../Feature';
 import BaseEvent from '../events/Event';
+import Circle from '../geom/Circle';
+import Geometry from '../geom/Geometry';
+import GeometryCollection from '../geom/GeometryCollection';
+import LineString from '../geom/LineString';
+import MultiLineString from '../geom/MultiLineString';
+import MultiPoint from '../geom/MultiPoint';
+import MultiPolygon from '../geom/MultiPolygon';
+import Point from '../geom/Point';
+import Polygon from '../geom/Polygon';
 import SimpleGeometry from '../geom/SimpleGeometry';
 import Layer from '../layer/Layer';
 import { TransformFunction } from '../proj';
+import RenderFeature from '../render/Feature';
 import BuilderGroup from '../render/canvas/BuilderGroup';
 import Source from '../source/Source';
 import Style from '../style/Style';
+import LayerRenderer from './Layer';
 
 /**
  * Feature callback. The callback will be called with three arguments. The first

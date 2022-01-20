@@ -1,4 +1,5 @@
 import Feature, { FeatureLike } from '../Feature';
+import { Coordinate } from '../coordinate';
 import Geometry from '../geom/Geometry';
 import GeometryLayout from '../geom/GeometryLayout';
 import Projection from '../proj/Projection';

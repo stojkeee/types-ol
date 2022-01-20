@@ -1,5 +1,12 @@
 import Feature from '../Feature';
+import { Coordinate } from '../coordinate';
 import Geometry from '../geom/Geometry';
+import LineString_1 from '../geom/LineString';
+import MultiLineString_1 from '../geom/MultiLineString';
+import MultiPoint_1 from '../geom/MultiPoint';
+import MultiPolygon_1 from '../geom/MultiPolygon';
+import Point_1 from '../geom/Point';
+import Polygon_1 from '../geom/Polygon';
 import { ProjectionLike } from '../proj';
 import Projection from '../proj/Projection';
 import { ReadOptions, WriteOptions } from './Feature';
