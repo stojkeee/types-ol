@@ -3,6 +3,7 @@ import Layer from '../layer/Layer';
 import { Pixel } from '../pixel';
 import EventType from '../render/EventType';
 import Source from '../source/Source';
+import LayerRenderer from './Layer';
 import MapRenderer from './Map';
 
 export default class CompositeMapRenderer extends MapRenderer {

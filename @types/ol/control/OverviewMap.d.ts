@@ -1,4 +1,5 @@
 import Collection from '../Collection';
+import MapBrowserEvent from '../MapBrowserEvent';
 import MapEvent from '../MapEvent';
 import { ObjectEvent } from '../Object';
 import PluggableMap from '../PluggableMap';
@@ -6,6 +7,8 @@ import View from '../View';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import BaseLayer from '../layer/Base';
+import RenderEvent from '../render/Event';
+import MapRenderer from '../renderer/Map';
 import Control from './Control';
 
 export type TControlledMapBaseEventTypes = 'change' | 'error';

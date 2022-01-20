@@ -1,5 +1,8 @@
 import Feature from '../Feature';
+import { Coordinate } from '../coordinate';
 import Geometry from '../geom/Geometry';
+import GeometryLayout from '../geom/GeometryLayout';
+import LineString from '../geom/LineString';
 import { ReadOptions, WriteOptions } from './Feature';
 import XMLFeature from './XMLFeature';
 

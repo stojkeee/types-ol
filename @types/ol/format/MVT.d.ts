@@ -1,5 +1,6 @@
 import Feature, { FeatureClass, FeatureLike } from '../Feature';
 import Geometry from '../geom/Geometry';
+import GeometryType from '../geom/GeometryType';
 import Projection from '../proj/Projection';
 import FeatureFormat, { ReadOptions, WriteOptions } from './Feature';
 import FormatType from './FormatType';

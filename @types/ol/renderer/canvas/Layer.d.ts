@@ -5,6 +5,7 @@ import BaseEvent from '../../events/Event';
 import { Extent } from '../../extent';
 import Layer from '../../layer/Layer';
 import { Pixel } from '../../pixel';
+import Source from '../../source/Source';
 import { Transform } from '../../transform';
 import LayerRenderer from '../Layer';
 import { HitMatch } from '../Map';
