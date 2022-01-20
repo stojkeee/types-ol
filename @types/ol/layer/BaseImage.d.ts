@@ -23,6 +23,9 @@ export type TBaseImageLayerObjectEventTypes =
 export type TBaseImageLayerRenderEventTypes = 'postrender' | 'prerender';
 export interface Options<ImageSourceType extends ImageSource = ImageSource> {
     className?: string;
+    name?: string;
+    title?: string;
+    type?: string;
     opacity?: number;
     visible?: boolean;
     extent?: Extent;

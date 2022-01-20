@@ -33,6 +33,9 @@ export type TBaseVectorLayerObjectEventTypes =
 export type TBaseVectorLayerRenderEventTypes = 'postrender' | 'prerender';
 export interface Options<VectorSourceType extends VectorSource | VectorTile = VectorSource | VectorTile> {
     className?: string;
+    name?: string;
+    title?: string;
+    type?: string;
     opacity?: number;
     visible?: boolean;
     extent?: Extent;

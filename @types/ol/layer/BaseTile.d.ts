@@ -25,6 +25,9 @@ export type TBaseTileLayerObjectEventTypes =
 export type TBaseTileLayerRenderEventTypes = 'postrender' | 'prerender';
 export interface Options<TileSourceType extends TileSource = TileSource> {
     className?: string;
+    name?: string;
+    title?: string;
+    type?: string;
     opacity?: number;
     visible?: boolean;
     extent?: Extent;
