@@ -1,12 +1,11 @@
 import MapBrowserEvent from '../MapBrowserEvent';
 import { ObjectEvent } from '../Object';
 import PluggableMap from '../PluggableMap';
-import { Coordinate } from '../coordinate';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import { Condition } from '../events/condition';
 import { Extent as Extent_1 } from '../extent';
-import { StyleFunction, StyleLike } from '../style/Style';
+import { StyleLike } from '../style/Style';
 import PointerInteraction from './Pointer';
 
 export type TExtentBaseEventTypes = 'change' | 'error';

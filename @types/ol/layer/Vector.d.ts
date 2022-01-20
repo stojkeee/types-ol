@@ -1,11 +1,9 @@
 import { ObjectEvent } from '../Object';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
-import Geometry from '../geom/Geometry';
 import RenderEvent from '../render/Event';
 import CanvasVectorLayerRenderer from '../renderer/canvas/VectorLayer';
 import VectorSource from '../source/Vector';
-import VectorTile from '../source/VectorTile';
 import BaseVectorLayer, { Options } from './BaseVector';
 
 export type TVectorLayerBaseEventTypes = 'change' | 'error';

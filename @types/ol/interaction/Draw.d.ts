@@ -14,7 +14,7 @@ import SimpleGeometry from '../geom/SimpleGeometry';
 import VectorLayer from '../layer/Vector';
 import Projection from '../proj/Projection';
 import VectorSource from '../source/Vector';
-import { StyleFunction, StyleLike } from '../style/Style';
+import { StyleLike } from '../style/Style';
 import PointerInteraction from './Pointer';
 
 export type TDrawBaseEventTypes = 'change' | 'error';

@@ -3,7 +3,6 @@ import PluggableMap from '../PluggableMap';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import { Extent } from '../extent';
-import Geometry from '../geom/Geometry';
 import { OrderFunction } from '../render';
 import RenderEvent from '../render/Event';
 import CanvasVectorImageLayerRenderer from '../renderer/canvas/VectorImageLayer';

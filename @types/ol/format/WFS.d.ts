@@ -5,18 +5,7 @@ import Projection from '../proj/Projection';
 import { ReadOptions } from './Feature';
 import GMLBase, { Options as Options_1 } from './GMLBase';
 import XMLFeature from './XMLFeature';
-import Bbox from './filter/Bbox';
-import ComparisonBinary from './filter/ComparisonBinary';
-import DWithin from './filter/DWithin';
-import During from './filter/During';
 import Filter from './filter/Filter';
-import IsBetween from './filter/IsBetween';
-import IsLike from './filter/IsLike';
-import IsNull from './filter/IsNull';
-import LogicalNary from './filter/LogicalNary';
-import Not from './filter/Not';
-import ResourceId from './filter/ResourceId';
-import Spatial from './filter/Spatial';
 
 /**
  * Number of features; bounds/extent.

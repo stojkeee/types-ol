@@ -2,7 +2,6 @@ import { ObjectEvent } from '../Object';
 import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import { Extent } from '../extent';
-import Geometry from '../geom/Geometry';
 import RenderEvent from '../render/Event';
 import WebGLPointsLayerRenderer from '../renderer/webgl/PointsLayer';
 import VectorSource from '../source/Vector';

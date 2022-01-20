@@ -1,4 +1,4 @@
-import Collection, { CollectionEvent } from '../Collection';
+import Collection from '../Collection';
 import Feature from '../Feature';
 import MapBrowserEvent from '../MapBrowserEvent';
 import { ObjectEvent } from '../Object';
@@ -8,7 +8,7 @@ import { EventsKey, ListenerFunction } from '../events';
 import BaseEvent from '../events/Event';
 import Geometry from '../geom/Geometry';
 import { Pixel } from '../pixel';
-import VectorSource, { VectorSourceEvent } from '../source/Vector';
+import VectorSource from '../source/Vector';
 import PointerInteraction from './Pointer';
 
 export type TSnapBaseEventTypes = 'change' | 'error';

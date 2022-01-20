@@ -12,7 +12,7 @@
       "ol": ["@types/ol"],
       "ol/*": ["@types/ol/*"]
     },
-    "strict": true,
+    "strict": false,
     "resolveJsonModule": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,

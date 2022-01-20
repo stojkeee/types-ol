@@ -1,8 +1,7 @@
-import DataTile, { Data } from '../DataTile';
+import DataTile from '../DataTile';
 import ImageTile from '../ImageTile';
 import Target from '../events/Target';
 import ReprojTile from '../reproj/Tile';
-import { Size } from '../size';
 import TileGrid from '../tilegrid/TileGrid';
 import WebGLHelper from './Helper';
 

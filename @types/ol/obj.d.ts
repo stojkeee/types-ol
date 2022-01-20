@@ -8,7 +8,7 @@ export const assign: (target: any, ...var_sources: any[]) => any;
  * Polyfill for Object.values().  Get an array of property values from an object.
  * See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
  */
-export const getValues: <K extends string | number | symbol, V extends any>(object: Record<K, V>) => V[];
+export const getValues: <K extends string | number | symbol, V>(object: Record<K, V>) => V[];
 /**
  * Removes all properties from an object.
  */

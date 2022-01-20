@@ -4,7 +4,6 @@ import { EventsKey, ListenerFunction } from '../../events';
 import BaseEvent from '../../events/Event';
 import Layer from '../../layer/Layer';
 import { Pixel } from '../../pixel';
-import Source from '../../source/Source';
 import WebGLHelper, { UniformValue } from '../../webgl/Helper';
 import LayerRenderer from '../Layer';
 import { HitMatch } from '../Map';

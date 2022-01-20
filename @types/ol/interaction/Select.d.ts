@@ -12,7 +12,7 @@ import VectorLayer from '../layer/Vector';
 import LayerRenderer from '../renderer/Layer';
 import Source from '../source/Source';
 import VectorSource from '../source/Vector';
-import { StyleFunction, StyleLike } from '../style/Style';
+import { StyleLike } from '../style/Style';
 import Interaction from './Interaction';
 
 export type TSelectBaseEventTypes = 'change' | 'error';
