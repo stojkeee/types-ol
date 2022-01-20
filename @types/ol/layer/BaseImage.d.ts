@@ -22,6 +22,7 @@ export type TBaseImageLayerObjectEventTypes =
     | 'propertychange';
 export type TBaseImageLayerRenderEventTypes = 'postrender' | 'prerender';
 export interface Options<ImageSourceType extends ImageSource = ImageSource> {
+    name?: string;
     className?: string;
     opacity?: number;
     visible?: boolean;
