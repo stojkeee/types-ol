@@ -2,7 +2,7 @@
     "name": "@types/ol",
     "version": "6.5.3",
     "description": "TypeScript definitions for ol",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ol",
+    "homepage": "https://github.com/stojkeee/types-ol",
     "license": "MIT",
     "contributors": [
         {
@@ -15,7 +15,7 @@
     "types": "index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "url": "https://github.com/stojkeee/types-ol.git",
         "directory": "types/ol"
     },
     "scripts": {},
@@ -25,6 +25,5 @@
         "@types/rbush": "*",
         "@types/topojson-specification": "*"
     },
-    "typesPublisherContentHash": "b5c521895df6c3cd3b2ad0160901a8402db2c949db1ddc17e3d1fcd4bd015b41",
     "typeScriptVersion": "3.6"
 }
