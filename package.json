@@ -1,11 +1,11 @@
 {
-  "name": "@hanreev/types-ol",
+  "name": "@stojkeee/types-ol",
   "version": "3.12.0",
   "description": "OpenLayers 6+ TypeScript definition",
   "author": "Rifa'i M. Hanif <hanreev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanreev/types-ol.git"
+    "url": "git+https://github.com/hanreev/types-ol.git"
   },
   "bugs": {
     "url": "https://github.com/hanreev/types-ol/issues"
@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "apply-patches": "node scripts/applyPatches.js",
@@ -75,5 +75,9 @@
   },
   "files": [
     "ol"
-  ]
+  ],
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  }
 }
